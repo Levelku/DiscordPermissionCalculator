@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Permissions Calculator</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/1385677694645043220/1385677758520098997/favpng_81351e68f526fbbf354123a007f3a179.png?ex=6856f07a&is=68559efa&hm=114fff43cc8ef760375a15065d831b2dcd5345bea38d94318b3b953c8b30f864&?size=48">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="spinner">
+      <img src="https://cdn.discordapp.com/attachments/1385677694645043220/1385684801838907513/lufiuaku68361-ezgif.com-gif-maker.gif?ex=6858f149&is=68579fc9&hm=5faf37a070a926a5c679cf1832c1d0a035be36c6e43b2fb41e20133f3774c0e6&" alt="">
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" class="logo" alt="Discord Logo">
+    <h1>Discord Permissions Calculator</h1>
+    <button id="theme-toggle" title="Toggle Theme">🌙</button>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section id="permissions">
+      <h2>General Permissions</h2>
+      <div class="permission-group" id="general-perms"></div>
+
+      <h2>Text Permissions</h2>
+      <div class="permission-group" id="text-perms"></div>
+
+      <h2>Voice Permissions</h2>
+      <div class="permission-group" id="voice-perms"></div>
+    </section>
+
+    <section id="oauth">
+      <h2>OAuth URL Generator</h2>
+      <label>Client ID
+        <input type="text" id="client-id" placeholder="123456789012345678">
+      </label>
+      <label>Scopes
+        <select multiple id="scopes">
+          <option value="bot">bot</option>
+          <option value="applications.commands">applications.commands</option>
+        </select>
+      </label>
+      <label>Permissions Integer
+        <input type="text" id="permissions-integer" readonly>
+      </label>
+      <button id="copy-url">Copy OAuth URL</button>
+      <p id="oauth-url"><a href="#" id="oauth-link" target="_blank" rel="noopener noreferrer">https://discord.com/oauth2/authorize?client_id=&scope=bot&permissions=0</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Discord Permissions Calculator. <a href="https://discord.gg/UCECCzvD74" target="_blank">YouKnowFantasy</a></p>
+  </footer>
+</body>
+</html>
+
