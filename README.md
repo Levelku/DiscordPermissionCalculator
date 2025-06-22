@@ -3,9 +3,8 @@
 Here’s the **English version** of a professional and stylish `README.md` for your website repository:
 👉 **[`levelku.github.io/DiscordPermissionCalculator`](https://levelku.github.io/DiscordPermissionCalculator)**
 
----
 
-````markdown
+```
 # 🎛️ Discord Permissions Calculator
 
 ![Repo Size](https://img.shields.io/github/repo-size/levelku/DiscordPermissionCalculator?color=7289DA&style=flat-square)
@@ -14,14 +13,12 @@ Here’s the **English version** of a professional and stylish `README.md` for y
 
 🔗 **Live Site**: [levelku.github.io/DiscordPermissionCalculator](https://levelku.github.io/DiscordPermissionCalculator)
 
----
 
 ## 💡 About
 
 **Discord Permissions Calculator** is a modern web-based tool to calculate permission integers for your Discord bot.  
 It replicates the style and structure of the official [Discord Developer Portal](https://discord.com/developers/docs/topics/permissions), with a user-friendly design, real-time invite link preview, and permission icons.
 
----
 
 ## 🚀 Features
 
@@ -34,7 +31,6 @@ It replicates the style and structure of the official [Discord Developer Portal]
 - 🌙 Dark/Light theme toggle
 - 📱 Fully responsive (desktop, mobile, iOS)
 
----
 
 ## 📸 Preview
 
@@ -42,11 +38,9 @@ It replicates the style and structure of the official [Discord Developer Portal]
 ![Dark Mode](https://i.imgur.com/your-dark-preview.png)  
 ![Light Mode](https://i.imgur.com/your-light-preview.png)
 
----
 
 ## 📁 Project Structure
 
-```bash
 ├── index.html        # Main page layout
 ├── style.css         # Styling (supports dark/light theme)
 ├── script.js         # Logic for permissions and UI
@@ -54,7 +48,6 @@ It replicates the style and structure of the official [Discord Developer Portal]
 └── README.md         # This documentation
 ````
 
----
 
 ## ⚙️ How to Use
 
@@ -70,13 +63,12 @@ Sample generated URL:
 https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=PERMISSION_INTEGER
 ```
 
----
 
 ## 👨‍💻 Contributing
 
 Pull requests are welcome!
 
-```bash
+```
 # Fork this repository
 git clone https://github.com/yourusername/DiscordPermissionCalculator.git
 cd DiscordPermissionCalculator
@@ -89,28 +81,23 @@ git checkout -b your-feature-branch
 
 You can help improve styling, functionality, or update permissions from the latest Discord API.
 
----
-
+```
 ## 📄 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
----
 
 ## 🙌 Support & Contact
 
 Need help or want to contribute ideas?
 
-* Discord: `yourusername#1234`
-* Email: `youremail@example.com`
+* Discord: `mikasafly#0000`
+* Email: `youknowfantasy@gmail.com`
 
----
 
 > Built with 💙 by [Levelku](https://github.com/levelku)
 
 ```
-
----
 
 Let me know if you'd like a minimal version, or one that includes GitHub Action badges, CDN usage stats, or contribution guidelines in a separate `CONTRIBUTING.md`.
 ```
