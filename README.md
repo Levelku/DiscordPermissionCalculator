@@ -86,15 +86,16 @@ You can help improve styling, functionality, or update permissions from the late
 
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
-
+```
 ## 🙌 Support & Contact
 
 Need help or want to contribute ideas?
 
 * Discord: `mikasafly#0000`
 * Email: `youknowfantasy@gmail.com`
+```
 
-
+```
 > Built with 💙 by [Levelku](https://github.com/levelku)
 
 ```
